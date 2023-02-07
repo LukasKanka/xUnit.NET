@@ -29,6 +29,12 @@ dotnet new xunit - vytvoří consolovou aplikaci
 
 dotnet add package Selenium.WebDriver - stahne knihovny selenium přejít do složky projektu
 
+Tento návod funguje jak pod Linux (odzkoušené v distribucích EndeavorOS, Ubuntu 22.04), MacOS, Windows 11.
+
+Z důvodu kompaktibility jseou je na GitHub pouze samotný kód testu. Ostatní soubory a složky se vytvoří po založení projektu.
+
+Složka TestResults také není součásti verze GitHub.
+
 
 
 
