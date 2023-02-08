@@ -1,4 +1,3 @@
-
 using Xunit;
 using System;
 using OpenQA.Selenium;
@@ -30,9 +29,13 @@ namespace xUnit.NET
 
             Assert.Equal("O mně - Lukáš bloguje", driver.Title);
 
-            // Počká tři sekundy na další akci
-            Thread.Sleep(3000);
+             Thread.Sleep(1000);
+            
+            // vrátí mě na hlavní stránku
+            IWebElement hlavniButton = driver.FindElement(By.Id("menu-item-75"));
 
+            // Počká tři sekundy na další akci
+            Thread.Sleep(3000); 
 
 
             Console.Write("Dotestováno");
